@@ -8,14 +8,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-
     <title>Hello, world!</title>
   </head>
   <body>
-    <header class="jumbotron jumbotron-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark transparent">
+    <header class="bg-dark">
+      <div class="jumbotron jumbotron-fluid">
+      <video class="video__item" id="video" autoplay loop>
+          <source src="img/video/Pizza-Oven.mp4" type="video/mp4">
+          <source src="img/video/Pizza-Oven.webm" type="video/wewbm">
+          <source src="img/video/Pizza-Oven.ogv" type="video/ogg"> Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+      <nav class="navbar navbar-expand navbar-dark transparent">
         <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><h1>Georgio's Pizzaria</h1></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -44,48 +50,47 @@
               </li>
             </ul>
           </div>
-
-        </div>
-      </nav>
-      <div>
-        <video autoplay muted loop poster="">
-          <source src="img/video/Pizza-Oven.mp4" type="video/mp4">
-          <source src="img/video/Pizza-Oven.webm" type="video/wewbm">
-          <source src="img/video/Pizza-Oven.ogv" type="video/ogg"> Your browser does not support the video tag.
-        </video>
-        <div class="overlay"></div>
-        <div class="container text-white">
-          <h1 class="display-4">Welcome to Georgio's Pizzaria</h1>
-          <p class="lead">You've Tried the Rest -- Now Try The Best!</p>
-          <a href="" class="btn btn-outline-primary btn-lg">Our Menu</a>
-        </div>
-        <div class="row d-inline-flex ">
-          <div class="banner-grads">
-              <div class="col-md-4 banner-grad-img">
-                  <img src="img/b1.jpg" class="img-fluid rounded-circle thumbnail" alt="" />
-                  <h4>Suspendisse</h4>
+          </div>
+        </nav>
+        <div class="container">
+          <div class="row height-80 align-items-center">
+            <div class="col text-white text-center">
+              <h1>Welcome to Georgio's</h1>
+              <p class="lead">Once you tried our best...you won't want the rest!</p>
+              <a href="#" class="btn btn-outline-danger p-3 mt-3">Check Out Our Menu</a>
+            </div>
+          </div>
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top rounded-circle img-fluid img-thumbnail" src="img/b1.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Pizzas</h5>
               </div>
-              <div class="col-md-4 banner-grad-img">
-                  <img src="img/b2.jpg" class="img-fluid rounded-circle thumbnail" alt="" />
-                  <h4>Molestie</h4>
+            </div>
+            <div class="card">
+              <img class="card-img-top rounded-circle img-fluid img-thumbnail" src="img/b2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Sandwiches</h5>
               </div>
-              <div class="col-md-4 banner-grad-img">
-                  <img src="img/b3.jpg" class="img-fluid rounded-circle thumbnail" alt="" />
-                  <h4>Imperdiet</h4>
+            </div>
+            <div class="card">
+              <img class="card-img-top rounded-circle img-fluid img-thumbnail" src="img/b3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Desserts</h5>
               </div>
+            </div>
           </div>
         </div>
-
+      </div>
     </header>
-    <section class="p-5">
-      <h4>Section A</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error in nulla id mollitia at, quos excepturi, repellendus cumque dolorum consectetur accusamus! In veritatis beatae nulla similique amet porro, tempore nobis!</p>
-    </section>
-    <section class="bg-dark text-white p-5">
-      <h4>Section B</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error in nulla id mollitia at, quos excepturi, repellendus cumque dolorum consectetur accusamus! In veritatis beatae nulla similique amet porro, tempore nobis!</p>
-    </section>
-
+  <section class="section-a text-center p-5">
+    <h2 class="">Section A</h2>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates explicabo a provident cupiditate consequatur consectetur nam accusamus! Aliquid dolor, recusandae nobis. Soluta labore, similique quo magni iste reprehenderit. Necessitatibus, tenetur? </p>
+  </section>
+  <section class="section-b text-center p-5">
+    <h2 class="">Section B</h2>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates explicabo a provident cupiditate consequatur consectetur nam accusamus! Aliquid dolor, recusandae nobis. Soluta labore, similique quo magni iste reprehenderit. Necessitatibus, tenetur? </p>
+  </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
