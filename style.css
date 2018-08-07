@@ -1,5 +1,5 @@
 .height-80 {
-  min-height: 80vh;
+    min-height: 60vh;
 }
 .section-b {
   background: #666;
@@ -47,9 +47,8 @@
   height:100%;
   object-fit: cover;
   background: #000;
-  opacity:0.8;
+  opacity:0.7;
 }
 .navbar-expand>.container{
   border-bottom: 3px solid rgba(255, 255, 255, .75);
 }
-git
